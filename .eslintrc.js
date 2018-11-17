@@ -10,6 +10,9 @@ module.exports = {
     },
     "parser": "babel-eslint",
     "rules": {
+        "no-console":["error",{
+            "allow":["warn","error","info"]
+        }],
         "indent": [
             "error",
             4
@@ -26,5 +29,4 @@ module.exports = {
             "error",
             "always"
         ]
-    }
-};
+    }};
